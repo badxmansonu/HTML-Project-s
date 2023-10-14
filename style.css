@@ -1,0 +1,99 @@
+body { 
+  background-color: grey;
+  text-align: center;
+}
+
+.profile{
+  background-color: black;
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  border-radius: 50%;
+  outline: 2px white solid;
+  margin-top: 20px;
+  color: white;
+  font-size: 55px;
+  line-height: 70px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  line-height: 10px;
+  margin-top: 50px;
+}
+
+#facebook:hover{
+  background-color: white;
+  color: black;
+}
+#facebook{
+  margin-right: 10px;
+  background-color:#0862F7;
+  color: white;
+  width: auto;
+  height: 30px;
+  line-height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  outline: 1px white solid;
+
+}
+#linkedin:hover{
+  background-color: white;
+  color: black;
+}
+#linkedin{
+  margin-right: 10px;
+  background-color: #0C61BF;
+  color: white;
+  height: 30px;
+  line-height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  outline: 1px white solid;
+}
+#github:hover{
+  background-color: white;
+  color: black;
+}
+#github{
+  margin-right: 10px;
+  background-color:#000000;
+  color: white;
+  height: 30px;
+  line-height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  outline: 1px white solid;
+}
+
+.container {
+  border:2px white solid;
+  height: 550px;
+  padding: 20px;
+  margin: 5px;
+  box-shadow: 2px 3px 10px black;
+  background-image: linear-gradient(red, blue);
+  margin-top:30px;
+  
+}
+
+.footer {
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+  width: auto;
+  height: 50px;
+  line-height: 50px;
+}
+
+#bio {
+  color: white;
+  line-height: 20px;
+}
+
+h1 {
+  color: white;
+}
