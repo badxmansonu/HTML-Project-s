@@ -1,99 +1,160 @@
-body { 
-  background-color: grey;
-  text-align: center;
-}
-
-.profile{
-  background-color: black;
-  width: 70px;
-  height: 70px;
-  margin: auto;
-  border-radius: 50%;
-  outline: 2px white solid;
-  margin-top: 20px;
+body {
+  background-color: purple;
   color: white;
-  font-size: 55px;
-  line-height: 70px;
-  font-family: 'Times New Roman', Times, serif;
 }
 
-.social {
-  display: flex;
-  justify-content: center;
-  line-height: 10px;
-  margin-top: 50px;
+.animation {
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  animation-name: animation;
+  animation-duration: 5s;
+  animation-direction: inherit;
+  border-radius: 100px;
 }
 
-#facebook:hover{
+.animation2 {
+  width: 50px;
+  height: 50px;
   background-color: white;
-  color: black;
+  animation-name: animation2;
+  animation-duration: 5s;
+  animation-direction: inherit;
+  border-radius: 100px;
 }
-#facebook{
-  margin-right: 10px;
-  background-color:#0862F7;
-  color: white;
-  width: auto;
-  height: 30px;
-  line-height: 30px;
-  width: 100px;
-  border-radius: 20px;
-  outline: 1px white solid;
-
+.animation3 {
+  width: 50px;
+  height:50px;
+  background-color: green;
+  animation-name: animation3;
+  animation-duration: 4s;
+  animation-direction: alternate-reverse;
+  border-radius: 100px;
 }
-#linkedin:hover{
-  background-color: white;
-  color: black;
-}
-#linkedin{
-  margin-right: 10px;
-  background-color: #0C61BF;
-  color: white;
-  height: 30px;
-  line-height: 30px;
-  width: 100px;
-  border-radius: 20px;
-  outline: 1px white solid;
-}
-#github:hover{
-  background-color: white;
-  color: black;
-}
-#github{
-  margin-right: 10px;
-  background-color:#000000;
-  color: white;
-  height: 30px;
-  line-height: 30px;
-  width: 100px;
-  border-radius: 20px;
-  outline: 1px white solid;
+.animation4 {
+  width: 50px;
+  height:50px;
+  background-color: green;
+  animation-name: animation4;
+  animation-duration: 4s;
+  animation-direction: alternate-reverse;
+  border-radius: 100px;
 }
 
-.container {
-  border:2px white solid;
-  height: 550px;
-  padding: 20px;
-  margin: 5px;
-  box-shadow: 2px 3px 10px black;
-  background-image: linear-gradient(red, blue);
-  margin-top:30px;
+
+.animation5 {
+  width: 50px;
+  height:50px;
+  background-color: green;
+  animation-name: animation5;
+  animation-duration: 4s;
+  animation-direction: alternate-reverse;
+  border-radius: 100px;
+}
+.animation6 {
+  width: 50px;
+  height:50px;
+  background-color: green;
+  animation-name: animation6;
+  animation-duration: 4s;
+  animation-direction: alternate-reverse;
+  border-radius: 100px;
+}
+
+.animation7 {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  animation-name: animation7;
+  animation-duration: 4s;
+  animation-direction: alternate-reverse;
+  border-radius: 100px;
   
 }
 
-.footer {
-  margin-top: 30px;
-  background-color: black;
-  color: white;
-  width: auto;
-  height: 50px;
-  line-height: 50px;
+
+
+
+
+
+
+
+
+@keyframes animation{
+  from {
+    background-color: white;
+    position: relative;
+    top: 10000px;
+  }
+  to{
+    background-color: green;
+    position: relative;
+    top: 0px;
+  }
+}
+@keyframes animation2 {
+  from{
+    background-color: white;
+    position: relative;
+    top: 100px;
+  }
+  to{
+    background-color:white;
+    position: relative;
+    top: 0px;
+  }
+}
+@keyframes animation3 {
+  from {
+    background-color: green;
+    position: relative;
+    top: 20px;
+    
+  }
+  to{
+    background-color: pink;
+    position: relative;
+    top: 200px;
+  }
 }
 
-#bio {
-  color: white;
-  line-height: 20px;
+@keyframes animation4 {
+  from{
+    position: relative;
+    background-color: white;
+    top: 3000px;
+  }
+  to{
+    position: relative;
+    top: 100px;
+  }
+}
+@keyframes animation5 {
+  from{
+    position: relative;
+    top: 200px;
+  }
+  to{
+   position: relative;
+   top: 30pp;
+  }
+  
+}
+@keyframes animation6 {
+  from{}
+  to{}
+}
+@keyframes animation7 {
+  from{}
+  to{}
+  
 }
 
-h1 {
-  color: white;
+
+
+
+
+.animation-container{
+  display: flex;
+  margin: auto;
 }
